@@ -6,7 +6,6 @@
 #   2017-12-15
 #
 
-exit 0
 PACKAGE=iotdb-process
 DIST_ROOT=/var/tmp/.dist.$$
 
@@ -35,6 +34,7 @@ echo "=================="
         README.md LICENSE \
         package.json \
         index.js \
+        lib/*.js \
         |
     ( cd "${NPM_DST}" && tar xvf - && npm publish ) || exit 1
     git commit -m "new release" package.json || exit 1
