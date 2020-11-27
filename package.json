@@ -4,7 +4,7 @@
         "url": "https://github.com/dpjanes/iotdb-process/issues"
     }, 
     "dependencies": {
-        "iotdb-helpers": "~3.4.2"
+        "iotdb-helpers": "~3.5.1"
     }, 
     "description": "POP child_process", 
     "homepage": "https://github.com/dpjanes/node-iotdb", 
